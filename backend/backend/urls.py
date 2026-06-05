@@ -11,4 +11,10 @@ urlpatterns = [
 
     # accounts endpoints
     path('api/accounts/', include('accounts.urls')),
+
+    # clinics and doctors endpoints
+    path('api/', include('clinics.urls')),  
+
+    # tokens endpoints
+    path('api/', include('queues.urls')),  
 ]
