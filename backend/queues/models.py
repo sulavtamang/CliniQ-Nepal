@@ -1,6 +1,3 @@
-from email.policy import default
-from django.utils import choices
-from concurrent.futures._base import CANCELLED
 from django.db import models
 from clinics.models import Doctor
 
